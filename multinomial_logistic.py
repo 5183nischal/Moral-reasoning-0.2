@@ -76,6 +76,7 @@ print("Multinomical LogisticRegression with Vector Featues")
 clf = LogisticRegression(multi_class = "multinomial", solver="newton-cg").fit(X, y)
 coef = clf.coef_
 
+'''
 print("predicition on test set")
 total = 0
 correct = 0
@@ -87,7 +88,9 @@ for i in range(len(X_test)):
     total += 1
     if predict == real:
         correct += 1
-#print("accuracy rate:", (correct/total)*100, "%")
+print("accuracy rate:", (correct/total)*100, "%")
+print(len(X_test))
+'''
 
 
 
