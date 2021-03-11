@@ -1,6 +1,5 @@
-# moral-reasoning
+# Automated classification of Moral Reasoning
 
-This is a project for NYU's Center for Data Science Course Machine Learning and Computational Statistics (DS-GA 1003 / CSCI-GA 2567).
+This is the code for the paper [Automated classification of modes of moral reasoning in judicial decisions](https://www.elgaronline.com/view/edcoll/9781788977449/9781788977449.00009.xml).
 
-We're building a classifier to identify the moral reasoning (consequentialist vs deontological) used by judges in circuit court opinions.
-
+The training for learning language of moral reasoning is done through a corpus of philosophy papers. The infrence is done of US circuit courts judicial record and are dumped as ```predicitons.pickle```. The inferences are analysed in the jupyter notebook.
