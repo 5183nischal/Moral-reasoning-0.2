@@ -23,6 +23,4 @@ def stringPrediction(word):
 	moral_proportion = clf.predict_proba(x_vector)
 	return moral_proportion[0]
 
-x='Liam'
-print(stringPrediction(x))
 
